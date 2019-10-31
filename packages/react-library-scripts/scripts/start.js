@@ -7,7 +7,7 @@ const Webpack = require("webpack");
 const WebpackDevServer = require("webpack-dev-server");
 const open = require("open");
 const config = require("../configs/webpack.config.js");
-const verifyPort = require("../utils/verifyPort");
+const portChecker = require("../utils/portChecker");
 const resolverPath = require("../utils/resolverPath");
 
 const APP_PATH = resolverPath("src/dev");
@@ -19,8 +19,7 @@ const server = new WebpackDevServer(compiler, {
 });
 
 const PORT = process.env.PORT || 3000;
-const baseUrl = "http://localhost";
 
-verifyPort(PORT, baseUrl, newPort => {
-  server.listen(newPort, "localhost", () => open(`${baseUrl}:${newPort}`));
-});
+portChecker(PORT, newPort =>
+  server.listen(newPort, "localhost", () => open(`http://localhost:${newPort}`))
+);
