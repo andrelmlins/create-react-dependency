@@ -8,6 +8,9 @@ install:
   - yarn global add lerna
   - lerna bootstrap
 
+script:
+  - lerna run test
+
 before_deploy:
   - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
 
