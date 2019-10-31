@@ -18,7 +18,8 @@ if (packageJson.jest) {
   jestConfig = { ...jestConfig, ...packageJson.jest };
 }
 
+const args = process.argv.slice(2);
 args.unshift("--ci");
 args.unshift("--config", JSON.stringify(jestConfig));
 
-jest.run(process.argv.slice(2));
+jest.run(args);
