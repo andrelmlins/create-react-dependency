@@ -1,0 +1,38 @@
+# Create React Dependency
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/create-react-dependency/blob/master/LICENSE) &bull; [![Build Status](https://travis-ci.com/andrelmlins/create-react-dependency.svg?branch=master)](https://travis-ci.com/andrelmlins/create-react-dependency) &bull; [![Dependencies](https://david-dm.org/andrelmlins/create-react-dependency.svg)](https://david-dm.org/andrelmlins/create-react-dependency) &bull; [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/andrelmlins/create-react-dependency.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/andrelmlins/create-react-dependency/context:javascript)
+
+Project similar to the [Create React App](https://github.com/facebook/create-react-app) for libraries and dependencies
+
+## Basic Use
+
+```
+npx create-react-dependency new my-dependency
+cd my-dependency
+npm start
+```
+
+## How to create a dependency or library?
+
+### Yarn
+
+```
+yarn create create-react-dependency my-dependency
+```
+
+### NPX
+
+```
+npx create-react-dependency my-dependency
+```
+
+### NPM
+
+```
+npm init create-react-dependency my-dependency
+```
+
+## Projects
+
+- [Create React Dependency](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/create-react-dependency/README.md)
+- [React Library Scripts](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/react-dependency-scripts/README.md)
