@@ -17,10 +17,7 @@ process.on("unhandledRejection", err => {
 const APP_PATH = resolverPath("src/lib");
 const BUILD_PATH = resolverPath("dist");
 
-if (fs.existsSync(BUILD_PATH)) {
-  deletePath(BUILD_PATH);
-}
-
+deletePath(BUILD_PATH);
 fs.mkdirSync(BUILD_PATH);
 console.log(`Create directory:\t${BUILD_PATH}`);
 

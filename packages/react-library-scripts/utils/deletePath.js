@@ -1,13 +1,14 @@
 "use strict";
 
 const fs = require("fs");
+const path = require("path");
 
-const deletePath = path => {
-  if (fs.existsSync(path)) {
-    const files = fs.readdirSync(path);
+const deletePath = pathDelete => {
+  if (fs.existsSync(pathDelete)) {
+    const files = fs.readdirSync(pathDelete);
 
     files.forEach(file => {
-      const currentPath = path.join(path, file);
+      const currentPath = path.join(pathDelete, file);
       if (fs.lstatSync(currentPath).isDirectory()) {
         deletePath(currentPath);
       } else {
@@ -15,7 +16,7 @@ const deletePath = path => {
       }
     });
 
-    fs.rmdirSync(path);
+    fs.rmdirSync(pathDelete);
   }
 };
 
