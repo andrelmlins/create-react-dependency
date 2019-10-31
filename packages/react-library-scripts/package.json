@@ -1,6 +1,6 @@
 {
   "name": "react-dependency-scripts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Scripts of react libraries",
   "main": "index.js",
   "author": "André Lins",
