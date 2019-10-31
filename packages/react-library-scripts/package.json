@@ -5,5 +5,19 @@
   "main": "index.js",
   "author": "André Lins",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "bin": {
+    "react-libray-scripts": "index.js"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3"
+  }
 }
