@@ -3,10 +3,20 @@
   "version": "0.0.2",
   "description": "Creating react libraries",
   "main": "index.js",
-  "author": "André Lins",
+  "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
   "license": "MIT",
   "private": false,
+  "homepage": "https://github.com/andrelmlins/create-react-dependency",
   "bin": {
-    "create-library-react": "index.js"
+    "create-react-dependency": "index.js"
+  },
+  "keywords": [
+    "create",
+    "react",
+    "dependency"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelmlins/create-react-dependency.git"
   }
 }

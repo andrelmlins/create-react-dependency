@@ -3,11 +3,21 @@
   "version": "0.0.7",
   "description": "Scripts of react libraries",
   "main": "index.js",
-  "author": "André Lins",
+  "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
   "license": "MIT",
   "private": false,
+  "homepage": "https://github.com/andrelmlins/create-react-dependency",
   "bin": {
     "react-dependency-scripts": "index.js"
+  },
+  "keywords": [
+    "react",
+    "dependency",
+    "scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelmlins/create-react-dependency.git"
   },
   "peerDependencies": {
     "react": "^16.9.0",
