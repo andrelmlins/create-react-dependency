@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "André Lins",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "bin": {
+    "create-library-react": "index.js"
+  }
 }
