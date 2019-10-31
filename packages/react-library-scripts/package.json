@@ -1,5 +1,5 @@
 {
-  "name": "react-library-scripts",
+  "name": "react-dependencie-scripts",
   "version": "0.0.1",
   "description": "Scripts of react libraries",
   "main": "index.js",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "bin": {
-    "react-libray-scripts": "index.js"
+    "react-dependencie-scripts": "index.js"
   },
   "peerDependencies": {
     "react": "^16.9.0",
