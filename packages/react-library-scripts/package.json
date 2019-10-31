@@ -1,0 +1,9 @@
+{
+  "name": "react-library-scripts",
+  "version": "0.1.0",
+  "description": "Scripts of react libraries",
+  "main": "index.js",
+  "author": "André Lins",
+  "license": "MIT",
+  "private": false
+}

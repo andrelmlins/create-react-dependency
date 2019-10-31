@@ -1,0 +1,9 @@
+{
+  "name": "create-library-react",
+  "version": "0.1.0",
+  "description": "Creating react libraries",
+  "main": "index.js",
+  "author": "André Lins",
+  "license": "MIT",
+  "private": false
+}
