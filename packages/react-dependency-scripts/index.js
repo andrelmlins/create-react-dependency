@@ -8,20 +8,14 @@ const args = process.argv.slice(2);
 const scripts = ["start", "build", "test"];
 
 if (args.length === 0) {
-  console.log("Empty script.");
+  console.log("\x1b[31mEmpty script.");
   process.exit(1);
 }
 
 const script = args[0];
 
-process.on("unhandledRejection", err => {
-  throw err;
-});
-
-console.log("\x1b[36m", `\nReact Library Scripts\n`, "\x1b[0m");
-console.log(
-  `🚀 Version: ${require("./package.json").version} / ⚙️  Script: ${script} \n`
-);
+console.log(`\x1b[36m\nReact Dependency Scripts (${script})`, "\x1b[0m");
+console.log(`🚀 Version: ${require("./package.json").version}\n`);
 
 if (scripts.includes(script)) {
   const result = spawnSync(
@@ -31,7 +25,7 @@ if (scripts.includes(script)) {
   );
   process.exit(result.status);
 } else {
-  console.log(`Unknown script ${script}.`);
+  console.log(`\x1b[31mUnknown script ${script}.`);
   console.log("See: http://github.com/andrelmlins/create-react-library");
   process.exit(1);
 }

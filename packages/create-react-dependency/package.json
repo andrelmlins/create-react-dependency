@@ -18,5 +18,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andrelmlins/create-react-dependency.git"
+  },
+  "dependencies": {
+    "commander": "^4.0.0"
   }
 }
