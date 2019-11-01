@@ -28,5 +28,13 @@ if (typeof projectName === "undefined") {
 
   process.exit(1);
 } else {
-  console.log("sucess");
+  const root = path.resolve(projectName);
+
+  fs.mkdirSync(projectName);
+  createPackageJson(root, projectName);
+  //   await installTemplate(root, type, verbose);
+
+  //   installDependencies(root, type, verbose);
+  //   setVariables(root, type, name, verbose);
+  //   initializeGit(name, verbose);
 }
