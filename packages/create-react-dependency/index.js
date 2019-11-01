@@ -33,7 +33,7 @@ if (typeof projectName === "undefined") {
   fs.mkdirSync(projectName);
 
   createPackageJson(root, projectName);
-  await createTemplate(root);
-  installDependencies(root, type, verbose);
-  //   initializeGit(name, verbose);
+  createTemplate(root);
+  installDependencies(root);
+  initializeGit(root);
 }
