@@ -3,6 +3,12 @@
 "use strict";
 
 const program = require("commander");
+const path = require("path");
+const fs = require("fs");
+const createPackageJson = require("./stages/createPackageJson");
+const createTemplate = require("./stages/createTemplate");
+const installDependencies = require("./stages/installDependencies");
+const initializeGit = require("./stages/initializeGit");
 
 console.log("\x1b[36mCreate React Dependency", "\x1b[0m");
 console.log(`🚀 Version: ${require("./package.json").version}\n`);
@@ -31,7 +37,6 @@ if (typeof projectName === "undefined") {
   const root = path.resolve(projectName);
 
   fs.mkdirSync(projectName);
-
   createPackageJson(root, projectName);
   createTemplate(root);
   installDependencies(root);

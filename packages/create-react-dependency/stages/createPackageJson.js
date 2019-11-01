@@ -7,16 +7,15 @@ const createPackageJson = (root, name) => {
   const basePackageJson = {
     name: name,
     version: "0.0.1",
+    main: "dist/index.js",
+    module: "dist/index.js",
     license: "MIT",
+    files: ["dist"],
     scripts: {
       start: "react-dependency-scripts start",
       build: "react-dependency-scripts build",
       test: "react-dependency-scripts test"
     },
-    main: "dist/index.js",
-    module: "dist/index.js",
-    files: ["dist"],
-    dependencies: {},
     devDependencies: {
       react: "16.11.0",
       "react-dom": "16.11.0",

@@ -9,6 +9,7 @@ const deletePath = pathDelete => {
 
     files.forEach(file => {
       const currentPath = path.join(pathDelete, file);
+
       if (fs.lstatSync(currentPath).isDirectory()) {
         deletePath(currentPath);
       } else {
