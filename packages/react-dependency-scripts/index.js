@@ -25,7 +25,7 @@ if (scripts.includes(script)) {
   );
   process.exit(result.status);
 } else {
-  console.log(`\x1b[31mUnknown script ${script}.`);
+  console.log(`\x1b[31mUnknown script ${script}.\x1b[0m`);
   console.log("See: http://github.com/andrelmlins/create-react-library");
   process.exit(1);
 }

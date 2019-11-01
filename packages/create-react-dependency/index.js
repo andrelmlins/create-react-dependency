@@ -31,10 +31,10 @@ if (typeof projectName === "undefined") {
   const root = path.resolve(projectName);
 
   fs.mkdirSync(projectName);
+
   createPackageJson(root, projectName);
-  //   await installTemplate(root, type, verbose);
+  await installTemplate(root);
 
   //   installDependencies(root, type, verbose);
-  //   setVariables(root, type, name, verbose);
   //   initializeGit(name, verbose);
 }
