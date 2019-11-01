@@ -36,3 +36,7 @@ npm init create-react-dependency my-dependency
 
 - [Create React Dependency](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/create-react-dependency/README.md)
 - [React Library Scripts](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/react-dependency-scripts/README.md)
+
+## License
+
+Create React Dependency is open source software [licensed as MIT](https://github.com/andrelmlins/create-react-dependency/blob/master/LICENSE).
