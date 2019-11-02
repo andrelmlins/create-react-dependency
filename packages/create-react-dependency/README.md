@@ -30,6 +30,12 @@ npx create-react-dependency my-dependency
 npm init create-react-dependency my-dependency
 ```
 
+## NPM Statistics
+
+Download stats for this NPM package
+
+[![NPM](https://nodei.co/npm/create-react-dependency.png)](https://nodei.co/npm/create-react-dependency/)
+
 ## License
 
 Create React Dependency is open source software [licensed as MIT](https://github.com/andrelmlins/create-react-dependency/blob/master/LICENSE).

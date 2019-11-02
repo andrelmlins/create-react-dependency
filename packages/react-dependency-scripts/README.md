@@ -32,6 +32,12 @@ npm test
 yarn test
 ```
 
+## NPM Statistics
+
+Download stats for this NPM package
+
+[![NPM](https://nodei.co/npm/react-dependency-scripts.png)](https://nodei.co/npm/react-dependency-scripts/)
+
 ## License
 
 Create React Dependency is open source software [licensed as MIT](https://github.com/andrelmlins/create-react-dependency/blob/master/LICENSE).
