@@ -1,6 +1,10 @@
-<center><img src="https://raw.githubusercontent.com/andrelmlins/create-react-dependency/master/packages/create-react-dependency/template/src/dev/logo.png"></center>
+<style type="text/css">
+  .title { margin-top:0px }
+</style>
 
-<h1><center><b>Create React Dependency</b></center></h1>
+<center><img width="400px" src="https://raw.githubusercontent.com/andrelmlins/create-react-dependency/master/packages/create-react-dependency/template/src/dev/logo.png"></center>
+
+<h1 class="title"><center><b>Create React Dependency</b></center></h1>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/create-react-dependency/blob/master/LICENSE) &bull; [![Build Status](https://travis-ci.com/andrelmlins/create-react-dependency.svg?branch=master)](https://travis-ci.com/andrelmlins/create-react-dependency) &bull; [![Dependencies](https://david-dm.org/andrelmlins/create-react-dependency.svg)](https://david-dm.org/andrelmlins/create-react-dependency) &bull; [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/andrelmlins/create-react-dependency.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/andrelmlins/create-react-dependency/context:javascript)
 
