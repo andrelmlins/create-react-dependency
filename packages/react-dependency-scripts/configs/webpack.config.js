@@ -23,8 +23,13 @@ const config = {
         }
       },
       {
-        test: /\.svg$/,
-        loader: "svg-inline-loader"
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        use: [
+          "file-loader",
+          {
+            loader: "image-webpack-loader"
+          }
+        ]
       },
       {
         test: /\.scss$/,
