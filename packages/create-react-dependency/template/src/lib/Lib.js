@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Lib = props => (
+const Lib = props => (
   <button
     style={{
       border: "none",

@@ -1,6 +1,6 @@
 {
   "name": "react-dependency-scripts",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Scripts of react libraries",
   "main": "index.js",
   "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
