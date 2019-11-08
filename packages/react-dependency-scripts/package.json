@@ -1,6 +1,6 @@
 {
   "name": "react-dependency-scripts",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Scripts of react libraries",
   "main": "index.js",
   "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
@@ -24,11 +24,11 @@
     "react-dom": "^16.9.0"
   },
   "dependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
     "@babel/plugin-transform-runtime": "^7.6.2",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/preset-react": "^7.6.3",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-module-resolver": "^3.2.0",
