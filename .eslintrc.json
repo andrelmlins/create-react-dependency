@@ -1,18 +1,13 @@
 {
-  "extends": [
-    "plugin:jest/recommended",
-    "plugin:react/recommended",
-    "plugin:jsx-a11y/recommended"
-  ],
+  "extends": ["plugin:react/recommended", "plugin:jsx-a11y/recommended"],
   "settings": {
     "react": {
       "pragma": "React",
       "version": "16.4.1"
     }
   },
-  "plugins": ["jest", "react", "jsx-a11y", "prettier"],
+  "plugins": ["react", "jsx-a11y", "prettier"],
   "env": {
-    "jest/globals": true,
     "browser": true
   },
   "rules": {
@@ -24,11 +19,6 @@
     "react/no-deprecated": "off",
     "react/prop-types": "off",
     "react/no-unescaped-entities": "off",
-    "jest/no-disabled-tests": "warn",
-    "jest/no-focused-tests": "error",
-    "jest/no-identical-title": "error",
-    "jest/prefer-to-have-length": "warn",
-    "jest/valid-expect": "error",
     "import/prop-types": "off",
     "import/no-extraneous-dependencies": "off",
     "import/prefer-default-export": "off",

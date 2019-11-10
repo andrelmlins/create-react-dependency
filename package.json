@@ -2,7 +2,16 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.18.4"
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "lerna": "^3.18.4",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "lint": "eslint packages/**/*.js"
   },
   "workspaces": [
     "packages/*"
