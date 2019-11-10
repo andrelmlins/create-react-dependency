@@ -1,17 +1,21 @@
-"use strict";
+'use strict';
 
-process.env.BABEL_ENV = "test";
-process.env.NODE_ENV = "test";
-process.env.PUBLIC_URL = "";
+process.env.BABEL_ENV = 'test';
+process.env.NODE_ENV = 'test';
+process.env.PUBLIC_URL = '';
 
-const jest = require("jest");
-const fs = require("fs");
-let jestConfig = require("../configs/jestConfig");
+process.on('unhandledRejection', err => {
+  throw err;
+});
 
-const packageJson = JSON.parse(fs.readFileSync("./package.json"));
+const jest = require('jest');
+const fs = require('fs');
+let jestConfig = require('../configs/jestConfig');
 
-if (fs.existsSync("./src/setupTest.js")) {
-  jestConfig.setupFilesAfterEnv = ["<rootDir>/src/setupTest.js"];
+const packageJson = JSON.parse(fs.readFileSync('./package.json'));
+
+if (fs.existsSync('./src/setupTest.js')) {
+  jestConfig.setupFilesAfterEnv = ['<rootDir>/src/setupTest.js'];
 }
 
 if (packageJson.jest) {
@@ -19,7 +23,7 @@ if (packageJson.jest) {
 }
 
 const args = process.argv.slice(2);
-args.unshift("--ci");
-args.unshift("--config", JSON.stringify(jestConfig));
+args.unshift('--ci');
+args.unshift('--config', JSON.stringify(jestConfig));
 
 jest.run(args);

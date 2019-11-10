@@ -2,6 +2,10 @@
 
 'use strict';
 
+process.on('unhandledRejection', err => {
+  throw err;
+});
+
 const { spawnSync } = require('child_process');
 
 const args = process.argv.slice(2);
@@ -26,6 +30,6 @@ if (scripts.includes(script)) {
   process.exit(result.status);
 } else {
   console.log(`\x1b[31mUnknown script ${script}.\x1b[0m`);
-  console.log('See: http://github.com/andrelmlins/create-react-library');
+  console.log('See: http://github.com/andrelmlins/create-react-dependency');
   process.exit(1);
 }
