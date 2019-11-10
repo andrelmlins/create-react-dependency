@@ -1,16 +1,16 @@
-"use strict";
+'use strict';
 
 const jestConfig = {
-  collectCoverageFrom: ["<rootDir>/src/lib/**/*.{js,jsx}"],
-  testPathIgnorePatterns: ["/node_modules/", "/dist/"],
+  collectCoverageFrom: ['<rootDir>/src/lib/**/*.{js,jsx}'],
+  testPathIgnorePatterns: ['/node_modules/', '/dist/'],
   transform: {
-    "^.+\\.(js|jsx|ts|tsx)$": `${__dirname}/jest/babelTransform.js`,
-    "^.+\\.css$": `${__dirname}/jest/cssTransform.js`,
-    "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)": `${__dirname}/jest/fileTransform.js`
+    '^.+\\.(js|jsx|ts|tsx)$': `${__dirname}/jest/babelTransform.js`,
+    '^.+\\.css$': `${__dirname}/jest/cssTransform.js`,
+    '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': `${__dirname}/jest/fileTransform.js`
   },
   transformIgnorePatterns: [
-    "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
-    "^.+\\.module\\.(css|sass|scss)$"
+    '[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$',
+    '^.+\\.module\\.(css|sass|scss)$'
   ],
   coverageThreshold: {
     global: {

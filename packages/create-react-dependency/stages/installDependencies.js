@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-const { execSync } = require("child_process");
+const { execSync } = require('child_process');
 
 const yarnInstalled = () => {
   try {
@@ -9,7 +9,7 @@ const yarnInstalled = () => {
   } catch (error) {
     return false;
   }
-}
+};
 
 const installDependencies = dir => {
   const originalDirectory = process.cwd();
@@ -17,11 +17,10 @@ const installDependencies = dir => {
     process.chdir(dir);
 
     if (yarnInstalled) {
-      execSync("yarnpkg install", { stdio: "inherit" });
+      execSync('yarnpkg install', { stdio: 'inherit' });
     } else {
-      execSync("npm install", { stdio: "inherit" });
+      execSync('npm install', { stdio: 'inherit' });
     }
-
   } catch (err) {
     console.log(`\x1b[31m${err}\x1b[0m`);
   }

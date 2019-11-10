@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-const fs = require("fs");
-const copyFolder = require("../utils/copyFolder");
+const fs = require('fs');
+const copyFolder = require('../utils/copyFolder');
 
 const installTemplate = dir => {
   const folder = `${__dirname}/../template`;

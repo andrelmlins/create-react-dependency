@@ -1,15 +1,15 @@
-"use strict";
+'use strict';
 
 const babelConfigs = {
-  presets: ["@babel/preset-react", "@babel/preset-env"],
+  presets: ['@babel/preset-react', '@babel/preset-env'],
   plugins: [
-    "@babel/plugin-proposal-class-properties",
-    "@babel/proposal-object-rest-spread",
-    "@babel/transform-runtime",
+    '@babel/plugin-proposal-class-properties',
+    '@babel/proposal-object-rest-spread',
+    '@babel/transform-runtime',
     [
-      "module-resolver",
+      'module-resolver',
       {
-        root: ["./src/lib"]
+        root: ['./src/lib']
       }
     ]
   ]

@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
 const copyFolder = (source, target) => {
   if (!fs.existsSync(target)) {
