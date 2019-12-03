@@ -43,7 +43,7 @@ npm init create-react-dependency my-dependency
 ## Projects
 
 - [Create React Dependency](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/create-react-dependency/README.md)
-- [React Library Scripts](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/react-dependency-scripts/README.md)
+- [React Dependency Scripts](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/react-dependency-scripts/README.md)
 
 ## License
 
