@@ -1,6 +1,6 @@
 {
   "name": "react-dependency-scripts",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "Scripts of react libraries",
   "main": "index.js",
   "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
@@ -34,7 +34,7 @@
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-preset-react-app": "^9.1.0",
     "css-loader": "^3.4.2",
-    "file-loader": "^4.2.0",
+    "file-loader": "^5.0.2",
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^6.0.0",
     "jest": "^25.1.0",

@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-  - "8"
-  - "10"
+  - '10'
+  - '12'
 cache: yarn
 
 install:
@@ -19,5 +19,5 @@ deploy:
   script: lerna publish from-package --yes --no-git-tag-version --no-push
   skip_cleanup: true
   on:
-    node: "10"
+    node: '10'
     tags: true
