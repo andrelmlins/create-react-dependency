@@ -71,8 +71,10 @@ my-dependency
 
 ## Projects
 
-- [Create React Dependency](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/create-react-dependency/README.md)
-- [React Dependency Scripts](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/react-dependency-scripts/README.md)
+| Package                                                                                                                                    | Version                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| [Create React Dependency](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/create-react-dependency/README.md)   | [![npm version](https://badge.fury.io/js/create-react-dependency.svg)](https://www.npmjs.com/package/create-react-dependency)   |
+| [React Dependency Scripts](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/react-dependency-scripts/README.md) | [![npm version](https://badge.fury.io/js/react-dependency-scripts.svg)](https://www.npmjs.com/package/react-dependency-scripts) |
 
 ## License
 
