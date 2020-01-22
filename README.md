@@ -20,7 +20,9 @@ cd my-dependency
 npm start
 ```
 
-## How to create a dependency or library?
+## Creating an dependency or library?
+
+Requires version equal to or later than Node 10, choose from the following options to create a dependency or library:
 
 ### Yarn
 
@@ -38,6 +40,33 @@ npx create-react-dependency my-dependency
 
 ```
 npm init create-react-dependency my-dependency
+```
+
+## File Structure
+
+File structure generated from the create-react-dependency project
+
+```
+my-dependency
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src
+    ├── dev
+    │   ├── App.js
+    │   ├── index.css
+    │   ├── index.html
+    │   ├── index.js
+    │   └── logo.png
+    └── lib
+        ├── index.cs
+        ├── index.js
+        └── Lib.js
 ```
 
 ## Projects
