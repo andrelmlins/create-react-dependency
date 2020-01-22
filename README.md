@@ -10,7 +10,7 @@
 
 Project similar to the [Create React App](https://github.com/facebook/create-react-app) for libraries and dependencies.
 
-It creates a ready to publish project which you can upload to npm, yarn and/or your favorite package manager.
+It creates a ready to publish project which you can upload to npm, yarn and/or your favorite package manager. For more information [click here](https://create-react-dependency.netlify.com/).
 
 ## Basic Use
 
