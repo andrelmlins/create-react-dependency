@@ -4,7 +4,7 @@
 
 <h1 style="margin-top:0px"><b>Create React Dependency</b></h1>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/create-react-dependency/blob/master/LICENSE) &bull; [![Build Status](https://travis-ci.com/andrelmlins/create-react-dependency.svg?branch=master)](https://travis-ci.com/andrelmlins/create-react-dependency) &bull; [![Dependencies](https://david-dm.org/andrelmlins/create-react-dependency.svg)](https://david-dm.org/andrelmlins/create-react-dependency) &bull; [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/andrelmlins/create-react-dependency.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/andrelmlins/create-react-dependency/context:javascript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/create-react-dependency/blob/master/LICENSE) &bull; [![Build Status](https://travis-ci.com/andrelmlins/create-react-dependency.svg?branch=master)](https://travis-ci.com/andrelmlins/create-react-dependency) &bull; [![Dependencies](https://david-dm.org/andrelmlins/create-react-dependency.svg)](https://david-dm.org/andrelmlins/create-react-dependency) &bull; [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/andrelmlins/create-react-dependency.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/andrelmlins/create-react-dependency/context:javascript) &bull; [![Netlify Status](https://api.netlify.com/api/v1/badges/59b78677-2d70-446b-b438-6336e37127f6/deploy-status)](https://app.netlify.com/sites/create-react-dependency/deploys)
 
 </div>
 
