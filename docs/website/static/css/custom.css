@@ -4,8 +4,21 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
- 
+
 /* your custom css */
+
+.homeContainer {
+  background-color: #37474f;
+}
+
+.homeContainer h2 {
+  color: white;
+}
+
+.homeContainer a {
+  color: white;
+  border-color: white;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
