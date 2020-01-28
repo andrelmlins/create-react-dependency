@@ -52,10 +52,6 @@ my-dependency
 ├── node_modules
 ├── package.json
 ├── .gitignore
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
 └── src
     ├── dev
     │   ├── App.js
