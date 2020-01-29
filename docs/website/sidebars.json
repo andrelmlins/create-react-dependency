@@ -1,8 +1,5 @@
 {
   "docs": {
-    "Getting Started": ["getting-started", "structure", "scripts"],
-    "How to Contribute": ["how-contribute"],
-    "Building your Dependency": ["building"],
-    "Projects": ["projects"]
+    "Getting Started": ["getting-started", "structure", "scripts", "projects"]
   }
 }
