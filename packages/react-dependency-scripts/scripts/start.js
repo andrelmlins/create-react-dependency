@@ -11,8 +11,8 @@ const Webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
 const open = require('open');
 const config = require('../configs/webpack.config.js');
-const portChecker = require('../utils/portChecker');
 const resolverPath = require('../utils/resolverPath');
+const choosePort = require('choose-port');
 
 const APP_PATH = resolverPath('src/dev');
 
@@ -23,7 +23,8 @@ const server = new WebpackDevServer(compiler, {
 });
 
 const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || '127.0.0.1';
 
-portChecker(PORT, newPort =>
+choosePort(PORT, HOST, newPort =>
   server.listen(newPort, 'localhost', () => open(`http://localhost:${newPort}`))
 );
