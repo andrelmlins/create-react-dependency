@@ -25,7 +25,11 @@ const configWebpack = ({ mode }) => {
     mode,
     bail: isEnvProduction,
     resolve: {
-      modules: ['node_modules', 'src'],
+      modules: [
+        'node_modules',
+        resolverPath('node_modules'),
+        resolverPath('src')
+      ],
       extensions: ['.ts', '.tsx', '.js', '.json']
     },
     module: {

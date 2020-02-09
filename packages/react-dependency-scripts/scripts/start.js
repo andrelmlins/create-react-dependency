@@ -10,11 +10,15 @@ process.on('unhandledRejection', err => {
 const Webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
 const open = require('open');
-const config = require('../configs/webpack.config.js');
+const configWebpack = require('../configs/webpack.config.js');
 const resolverPath = require('../utils/resolverPath');
 const choosePort = require('choose-port');
 
 const APP_PATH = resolverPath('src/dev');
+
+const config = configWebpack({
+  mode: 'development'
+});
 
 const compiler = Webpack(config);
 const server = new WebpackDevServer(compiler, {
