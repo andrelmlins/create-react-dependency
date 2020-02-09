@@ -4,7 +4,7 @@ title: Scripts
 sidebar_label: Scripts
 ---
 
-## Start the project
+## Start the development application
 
 Using [webpack](https://webpack.js.org/) with reference to folder `src/dev`.
 
@@ -14,7 +14,7 @@ npm start
 yarn start
 ```
 
-## Build the project
+## Build the library
 
 Using [babel](https://babeljs.io/) with reference to folder `src/lib`.
 
@@ -22,6 +22,16 @@ Using [babel](https://babeljs.io/) with reference to folder `src/lib`.
 npm build
 // OR
 yarn build
+```
+
+## Build the developmento application
+
+Using [webpack](https://webpack.js.org/) with reference to folder `src/dev`.
+
+```
+npm build:app
+// OR
+yarn build:app
 ```
 
 ## Test the project
