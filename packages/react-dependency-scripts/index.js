@@ -9,7 +9,7 @@ process.on('unhandledRejection', err => {
 const { spawnSync } = require('child_process');
 
 const args = process.argv.slice(2);
-const scripts = ['start', 'build', 'test'];
+const scripts = ['start', 'build', 'test', 'build-app'];
 
 if (args.length === 0) {
   console.log('\x1b[31mEmpty script.');
