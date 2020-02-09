@@ -14,6 +14,7 @@ const createPackageJson = (root, name) => {
     scripts: {
       start: 'react-dependency-scripts start',
       build: 'react-dependency-scripts build',
+      'build:app': 'react-dependency-scripts build-app',
       test: 'react-dependency-scripts test'
     },
     devDependencies: {
