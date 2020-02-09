@@ -9,6 +9,7 @@ install:
   - lerna bootstrap
 
 script:
+  - yarn lint
   - lerna run test
 
 before_deploy:
