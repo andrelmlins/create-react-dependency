@@ -13,7 +13,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint"
+      "pre-commit": "yarn lint",
+      "pre-push": "lerna run test"
     }
   },
   "scripts": {
