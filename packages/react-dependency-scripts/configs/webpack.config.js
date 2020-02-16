@@ -48,6 +48,10 @@ const configWebpack = ({ mode }) => {
           }
         },
         {
+          test: /\.(ts|js)x?$/,
+          use: ['variables-loader']
+        },
+        {
           test: /\.(gif|png|jpe?g|svg)$/i,
           use: ['file-loader', { loader: 'image-webpack-loader' }]
         },
