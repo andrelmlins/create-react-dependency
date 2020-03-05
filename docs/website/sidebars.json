@@ -1,5 +1,12 @@
 {
   "docs": {
-    "Getting Started": ["getting-started", "structure", "scripts", "projects"]
+    "Getting Started": [
+      "getting-started",
+      "structure",
+      "scripts",
+      "projects",
+      "how-contribute",
+      "code-of-conduct"
+    ]
   }
 }
