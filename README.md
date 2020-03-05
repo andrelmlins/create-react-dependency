@@ -6,11 +6,19 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/create-react-dependency/blob/master/LICENSE) &bull; [![Build Status](https://travis-ci.com/andrelmlins/create-react-dependency.svg?branch=master)](https://travis-ci.com/andrelmlins/create-react-dependency) &bull; [![Dependencies](https://david-dm.org/andrelmlins/create-react-dependency.svg)](https://david-dm.org/andrelmlins/create-react-dependency) &bull; [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/andrelmlins/create-react-dependency.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/andrelmlins/create-react-dependency/context:javascript) &bull; [![Netlify Status](https://api.netlify.com/api/v1/badges/59b78677-2d70-446b-b438-6336e37127f6/deploy-status)](https://app.netlify.com/sites/create-react-dependency/deploys)
 
+<br />
+
+[Contributing](CONTRIBUTING.md) | [Code of Conduct](CODE_OF_CONDUCT.md)
+
+<br />
+
 </div>
 
 Project similar to the [Create React App](https://github.com/facebook/create-react-app) for libraries and dependencies.
 
 It creates a ready to publish project which you can upload to npm, yarn and/or your favorite package manager. For more information [click here](https://create-react-dependency.netlify.com/).
+
+<br />
 
 ## Basic Use
 
@@ -71,6 +79,13 @@ my-dependency
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
 | [Create React Dependency](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/create-react-dependency/README.md)   | [![npm version](https://badge.fury.io/js/create-react-dependency.svg)](https://www.npmjs.com/package/create-react-dependency)   |
 | [React Dependency Scripts](https://github.com/andrelmlins/create-react-dependency/blob/master/packages/react-dependency-scripts/README.md) | [![npm version](https://badge.fury.io/js/react-dependency-scripts.svg)](https://www.npmjs.com/package/react-dependency-scripts) |
+
+## Contribution guidelines
+
+If you want to contribute to **Create React Dependency**, be sure to review the
+[contribution guidelines](CONTRIBUTING.md). This project adheres to
+[code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to
+uphold this code.
 
 ## License
 
