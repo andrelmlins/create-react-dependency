@@ -22,7 +22,7 @@ npm build
 yarn build
 ```
 
-## Build the developmento application
+## Build the development application
 
 Using [webpack](https://webpack.js.org/) with reference to folder `src/dev`.
 
