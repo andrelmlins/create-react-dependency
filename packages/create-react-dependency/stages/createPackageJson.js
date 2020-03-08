@@ -18,9 +18,9 @@ const createPackageJson = (root, name) => {
       test: 'react-dependency-scripts test'
     },
     devDependencies: {
-      react: '^16.12.0',
-      'react-dom': '^16.12.0',
-      'react-dependency-scripts': '^1.0.0'
+      react: '^16.13.0',
+      'react-dom': '^16.13.0',
+      'react-dependency-scripts': '^1.0.1'
     },
     browserslist: {
       production: ['>0.2%', 'not dead', 'not op_mini all'],

@@ -1,6 +1,6 @@
 {
   "name": "create-react-dependency",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creating react libraries",
   "main": "index.js",
   "author": "André Lins <andrelucas01@hotmail.com> (https://andrelmlins.github.io/)",
