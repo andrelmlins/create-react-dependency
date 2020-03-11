@@ -9193,10 +9193,10 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
-open@^7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/open/-/open-7.0.2.tgz#fb3681f11f157f2361d2392307548ca1792960e8"
-  integrity sha512-70E/pFTPr7nZ9nLDPNTcj3IVqnNvKuP4VsBmoKV9YGTnChe0mlS3C4qM7qKarhZ8rGaHKLfo+vBTHXDp6ZSyLQ==
+open@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/open/-/open-7.0.3.tgz#db551a1af9c7ab4c7af664139930826138531c48"
+  integrity sha512-sP2ru2v0P290WFfv49Ap8MF6PkzGNnGlAwHweB4WR4mr5d2d0woiCluUeJ218w7/+PmoBy9JmYgD5A4mLcWOFA==
   dependencies:
     is-docker "^2.0.0"
     is-wsl "^2.1.1"
@@ -12152,10 +12152,10 @@ validate-npm-package-name@^3.0.0:
   dependencies:
     builtins "^1.0.3"
 
-variables-loader@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/variables-loader/-/variables-loader-0.2.0.tgz#142d5e3824e80685d64f4cb091ef1535614c1619"
-  integrity sha512-o0dCEcwJyGzloBhcEnm0VhhY40cC93Z5yTWY3pDGUa51NC3y+0YWf68xeZn1h8vP8XjI4700wtiPfRONU4hxtg==
+variables-loader@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/variables-loader/-/variables-loader-0.2.2.tgz#e18cf6a3787d7136d02053ffb75f0c62b849ceb1"
+  integrity sha512-s4jaWUJntJgeJIQAUgOYPsXowceFG+C+zeGk6oJ5pYLf3n51Uh79GDqsLmjjymz97vF3Rhp81ZLMNyCq+HmTtA==
   dependencies:
     dotenv "^8.2.0"
     loader-utils "^1.2.3"
