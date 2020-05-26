@@ -15,21 +15,21 @@ const createPackageJson = (root, name) => {
       start: 'react-dependency-scripts start',
       build: 'react-dependency-scripts build',
       'build:app': 'react-dependency-scripts build-app',
-      test: 'react-dependency-scripts test'
+      test: 'react-dependency-scripts test',
     },
     devDependencies: {
       react: '^16.13.0',
       'react-dom': '^16.13.0',
-      'react-dependency-scripts': '^1.0.4'
+      'react-dependency-scripts': '^1.0.5',
     },
     browserslist: {
       production: ['>0.2%', 'not dead', 'not op_mini all'],
       development: [
         'last 1 chrome version',
         'last 1 firefox version',
-        'last 1 safari version'
-      ]
-    }
+        'last 1 safari version',
+      ],
+    },
   };
 
   fs.writeFileSync(
