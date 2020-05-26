@@ -20,6 +20,6 @@
     "url": "git+https://github.com/andrelmlins/create-react-dependency.git"
   },
   "dependencies": {
-    "commander": "^5.0.0"
+    "commander": "^5.1.0"
   }
 }

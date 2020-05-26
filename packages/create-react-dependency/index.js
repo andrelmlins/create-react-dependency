@@ -23,7 +23,7 @@ program
   .name(`${require('./package.json').name} new`)
   .command('new <name-project>')
   .description('Create a new project')
-  .action(name => (projectName = name));
+  .action((name) => (projectName = name));
 
 program.parse(process.argv);
 
