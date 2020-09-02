@@ -3,7 +3,7 @@
 process.env.NODE_ENV = 'production';
 process.env.BABEL_ENV = 'production';
 
-process.on('unhandledRejection', err => {
+process.on('unhandledRejection', (err) => {
   throw err;
 });
 
@@ -14,7 +14,7 @@ const deletePath = require('../utils/deletePath');
 const resolverPath = require('../utils/resolverPath');
 const babelConfig = require('../configs/babelConfig');
 
-process.on('unhandledRejection', err => {
+process.on('unhandledRejection', (err) => {
   throw err;
 });
 
@@ -27,10 +27,13 @@ console.log(`Create directory:\t${BUILD_PATH}`);
 
 const files = readAllFiles(APP_PATH);
 
-files.map(path => {
+files.map((path) => {
   const newPath = path.name.replace(APP_PATH, BUILD_PATH);
   if (path.isFile) {
-    if (path.name.match('^.+\\.(js|jsx|ts|tsx)$')) {
+    if (
+      path.name.match('^.+\\.(js|jsx|ts|tsx)$') &&
+      !path.name.match('^.+\\.d.ts$')
+    ) {
       const result = babel.transformFileSync(path.name, babelConfig);
       fs.appendFileSync(newPath, result.code);
     } else {
